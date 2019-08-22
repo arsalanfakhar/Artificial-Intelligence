@@ -1,0 +1,8 @@
+x=input("Enter a number")
+
+try:
+    print(x + 3)
+except:
+    print("The entered number is not a integer")
+finally:
+    print("I am done")
